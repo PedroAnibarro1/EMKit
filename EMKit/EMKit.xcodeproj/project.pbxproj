@@ -7,31 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C617384E20D82DCD00DB73C9 /* EMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C617384420D82DCD00DB73C9 /* EMKit.framework */; };
-		C617385320D82DCD00DB73C9 /* EMKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C617385220D82DCD00DB73C9 /* EMKitTests.swift */; };
 		C617385520D82DCD00DB73C9 /* EMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C617384720D82DCD00DB73C9 /* EMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C617386120D82E6D00DB73C9 /* TableManager in Resources */ = {isa = PBXBuildFile; fileRef = C617385E20D82E6D00DB73C9 /* TableManager */; };
 		C617386220D82E6D00DB73C9 /* Utilities in Resources */ = {isa = PBXBuildFile; fileRef = C617385F20D82E6D00DB73C9 /* Utilities */; };
 		C617386320D82E6D00DB73C9 /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = C617386020D82E6D00DB73C9 /* Extensions */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C617384F20D82DCD00DB73C9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C617383B20D82DCD00DB73C9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C617384320D82DCD00DB73C9;
-			remoteInfo = EMKit;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		C617384420D82DCD00DB73C9 /* EMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C617384720D82DCD00DB73C9 /* EMKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMKit.h; sourceTree = "<group>"; };
 		C617384820D82DCD00DB73C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C617384D20D82DCD00DB73C9 /* EMKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C617385220D82DCD00DB73C9 /* EMKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMKitTests.swift; sourceTree = "<group>"; };
-		C617385420D82DCD00DB73C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C617385E20D82E6D00DB73C9 /* TableManager */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TableManager; path = ../../TableManager; sourceTree = "<group>"; };
 		C617385F20D82E6D00DB73C9 /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Utilities; path = ../../Utilities; sourceTree = "<group>"; };
 		C617386020D82E6D00DB73C9 /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Extensions; path = ../../Extensions; sourceTree = "<group>"; };
@@ -45,14 +30,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C617384A20D82DCD00DB73C9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C617384E20D82DCD00DB73C9 /* EMKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -60,7 +37,6 @@
 			isa = PBXGroup;
 			children = (
 				C617384620D82DCD00DB73C9 /* EMKit */,
-				C617385120D82DCD00DB73C9 /* EMKitTests */,
 				C617384520D82DCD00DB73C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				C617384420D82DCD00DB73C9 /* EMKit.framework */,
-				C617384D20D82DCD00DB73C9 /* EMKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,15 +59,6 @@
 				C617385F20D82E6D00DB73C9 /* Utilities */,
 			);
 			path = EMKit;
-			sourceTree = "<group>";
-		};
-		C617385120D82DCD00DB73C9 /* EMKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				C617385220D82DCD00DB73C9 /* EMKitTests.swift */,
-				C617385420D82DCD00DB73C9 /* Info.plist */,
-			);
-			path = EMKitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,24 +93,6 @@
 			productReference = C617384420D82DCD00DB73C9 /* EMKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C617384C20D82DCD00DB73C9 /* EMKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C617385B20D82DCD00DB73C9 /* Build configuration list for PBXNativeTarget "EMKitTests" */;
-			buildPhases = (
-				C617384920D82DCD00DB73C9 /* Sources */,
-				C617384A20D82DCD00DB73C9 /* Frameworks */,
-				C617384B20D82DCD00DB73C9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C617385020D82DCD00DB73C9 /* PBXTargetDependency */,
-			);
-			name = EMKitTests;
-			productName = EMKitTests;
-			productReference = C617384D20D82DCD00DB73C9 /* EMKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -156,9 +104,6 @@
 				ORGANIZATIONNAME = ErraticMinds;
 				TargetAttributes = {
 					C617384320D82DCD00DB73C9 = {
-						CreatedOnToolsVersion = 9.4.1;
-					};
-					C617384C20D82DCD00DB73C9 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
@@ -176,7 +121,6 @@
 			projectRoot = "";
 			targets = (
 				C617384320D82DCD00DB73C9 /* EMKit */,
-				C617384C20D82DCD00DB73C9 /* EMKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -192,13 +136,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C617384B20D82DCD00DB73C9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -209,23 +146,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C617384920D82DCD00DB73C9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C617385320D82DCD00DB73C9 /* EMKitTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C617385020D82DCD00DB73C9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C617384320D82DCD00DB73C9 /* EMKit */;
-			targetProxy = C617384F20D82DCD00DB73C9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C617385620D82DCD00DB73C9 /* Debug */ = {
@@ -280,7 +201,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -337,7 +258,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -398,42 +319,6 @@
 			};
 			name = Release;
 		};
-		C617385C20D82DCD00DB73C9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2FGKMAF2RB;
-				INFOPLIST_FILE = EMKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.erraticminds.EMKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C617385D20D82DCD00DB73C9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2FGKMAF2RB;
-				INFOPLIST_FILE = EMKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.erraticminds.EMKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -451,15 +336,6 @@
 			buildConfigurations = (
 				C617385920D82DCD00DB73C9 /* Debug */,
 				C617385A20D82DCD00DB73C9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C617385B20D82DCD00DB73C9 /* Build configuration list for PBXNativeTarget "EMKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C617385C20D82DCD00DB73C9 /* Debug */,
-				C617385D20D82DCD00DB73C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -25,6 +25,8 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                      EMKit contains extensions that helps with some of the most frequent cases while programming in iOS.
+                      Also, EMKit includes a TableManager to help with UITableView implementations.
                    DESC
 
   s.homepage     = "https://github.com/PedroAnibarro1/EMKit"
@@ -38,8 +40,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # s.license      = "MIT (example)"
+  s.license      = { :type => "MIT", :file => "LICENCE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -55,7 +57,7 @@ Pod::Spec.new do |s|
   s.author             = { "Pedro Anibarro" => "pedroanibarro3@gmail.com" }
   # Or just: s.author    = "Pedro Anibarro"
   # s.authors            = { "Pedro Anibarro" => "pedroanibarro3@gmail.com" }
-  # s.social_media_url   = "http://twitter.com/Pedro Anibarro"
+  # s.social_media_url   = "http://twitter.com/PedroAnibarro"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -79,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/EMKit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/PedroAnibarro1/EMKit.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "Classes", "*.*"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
