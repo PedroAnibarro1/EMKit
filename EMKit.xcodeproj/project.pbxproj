@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		C617385520D82DCD00DB73C9 /* EMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C617384720D82DCD00DB73C9 /* EMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C617386120D82E6D00DB73C9 /* TableManager in Resources */ = {isa = PBXBuildFile; fileRef = C617385E20D82E6D00DB73C9 /* TableManager */; };
-		C617386220D82E6D00DB73C9 /* Utilities in Resources */ = {isa = PBXBuildFile; fileRef = C617385F20D82E6D00DB73C9 /* Utilities */; };
-		C617386320D82E6D00DB73C9 /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = C617386020D82E6D00DB73C9 /* Extensions */; };
+		C6EFA87720D83E3F00467D34 /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = C6EFA87620D83E3F00467D34 /* Extensions */; };
+		C6EFA87920D83E4B00467D34 /* TableManager in Resources */ = {isa = PBXBuildFile; fileRef = C6EFA87820D83E4B00467D34 /* TableManager */; };
+		C6EFA88F20D83F6600467D34 /* Helper Classes in Resources */ = {isa = PBXBuildFile; fileRef = C6EFA88E20D83F6600467D34 /* Helper Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C617384420D82DCD00DB73C9 /* EMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C617384720D82DCD00DB73C9 /* EMKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMKit.h; sourceTree = "<group>"; };
 		C617384820D82DCD00DB73C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C617385E20D82E6D00DB73C9 /* TableManager */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TableManager; path = ../../TableManager; sourceTree = "<group>"; };
-		C617385F20D82E6D00DB73C9 /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Utilities; path = ../../Utilities; sourceTree = "<group>"; };
-		C617386020D82E6D00DB73C9 /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Extensions; path = ../../Extensions; sourceTree = "<group>"; };
+		C6EFA87620D83E3F00467D34 /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extensions; sourceTree = "<group>"; };
+		C6EFA87820D83E4B00467D34 /* TableManager */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TableManager; sourceTree = "<group>"; };
+		C6EFA88E20D83F6600467D34 /* Helper Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Helper Classes"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +54,9 @@
 			children = (
 				C617384720D82DCD00DB73C9 /* EMKit.h */,
 				C617384820D82DCD00DB73C9 /* Info.plist */,
-				C617386020D82E6D00DB73C9 /* Extensions */,
-				C617385E20D82E6D00DB73C9 /* TableManager */,
-				C617385F20D82E6D00DB73C9 /* Utilities */,
+				C6EFA88E20D83F6600467D34 /* Helper Classes */,
+				C6EFA87620D83E3F00467D34 /* Extensions */,
+				C6EFA87820D83E4B00467D34 /* TableManager */,
 			);
 			path = EMKit;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C617386320D82E6D00DB73C9 /* Extensions in Resources */,
-				C617386120D82E6D00DB73C9 /* TableManager in Resources */,
-				C617386220D82E6D00DB73C9 /* Utilities in Resources */,
+				C6EFA87720D83E3F00467D34 /* Extensions in Resources */,
+				C6EFA88F20D83F6600467D34 /* Helper Classes in Resources */,
+				C6EFA87920D83E4B00467D34 /* TableManager in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
