@@ -8,18 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		C617385520D82DCD00DB73C9 /* EMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C617384720D82DCD00DB73C9 /* EMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6EFA87720D83E3F00467D34 /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = C6EFA87620D83E3F00467D34 /* Extensions */; };
-		C6EFA87920D83E4B00467D34 /* TableManager in Resources */ = {isa = PBXBuildFile; fileRef = C6EFA87820D83E4B00467D34 /* TableManager */; };
-		C6EFA88F20D83F6600467D34 /* Helper Classes in Resources */ = {isa = PBXBuildFile; fileRef = C6EFA88E20D83F6600467D34 /* Helper Classes */; };
+		C63D464320E2DFFE00A3B7DA /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D464120E2DFFE00A3B7DA /* Alert.swift */; };
+		C63D464420E2DFFE00A3B7DA /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D464220E2DFFE00A3B7DA /* Delay.swift */; };
+		C63D464920E2E02B00A3B7DA /* TableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D464720E2E02B00A3B7DA /* TableSection.swift */; };
+		C63D464A20E2E02B00A3B7DA /* TableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D464820E2E02B00A3B7DA /* TableManager.swift */; };
+		C63D465D20E2E03900A3B7DA /* UnicodeScalar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D464B20E2E03800A3B7DA /* UnicodeScalar+Extension.swift */; };
+		C63D465E20E2E03900A3B7DA /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D464C20E2E03800A3B7DA /* Double+Extension.swift */; };
+		C63D465F20E2E03900A3B7DA /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D464D20E2E03800A3B7DA /* UITextField+Extension.swift */; };
+		C63D466020E2E03900A3B7DA /* Int16+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D464E20E2E03800A3B7DA /* Int16+Extension.swift */; };
+		C63D466120E2E03900A3B7DA /* NSManagedObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D464F20E2E03800A3B7DA /* NSManagedObject+Extension.swift */; };
+		C63D466220E2E03900A3B7DA /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D465020E2E03800A3B7DA /* UIColor+Extension.swift */; };
+		C63D466320E2E03900A3B7DA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D465120E2E03800A3B7DA /* String+Extension.swift */; };
+		C63D466420E2E03900A3B7DA /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D465220E2E03800A3B7DA /* UIViewController+Extension.swift */; };
+		C63D466520E2E03900A3B7DA /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D465320E2E03900A3B7DA /* Date+Extension.swift */; };
+		C63D466620E2E03900A3B7DA /* UIProgressBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D465420E2E03900A3B7DA /* UIProgressBar+Extension.swift */; };
+		C63D466720E2E03900A3B7DA /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D465520E2E03900A3B7DA /* UITableView+Extension.swift */; };
+		C63D466820E2E03900A3B7DA /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D465620E2E03900A3B7DA /* UIImage+Extension.swift */; };
+		C63D466920E2E03900A3B7DA /* TimeInterval+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D465720E2E03900A3B7DA /* TimeInterval+Extension.swift */; };
+		C63D466A20E2E03900A3B7DA /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D465820E2E03900A3B7DA /* UIApplication+Extension.swift */; };
+		C63D466B20E2E03900A3B7DA /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D465920E2E03900A3B7DA /* UIButton+Extension.swift */; };
+		C63D466C20E2E03900A3B7DA /* UIScrollView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D465A20E2E03900A3B7DA /* UIScrollView+Extension.swift */; };
+		C63D466D20E2E03900A3B7DA /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D465B20E2E03900A3B7DA /* URLRequest+Extension.swift */; };
+		C63D466E20E2E03900A3B7DA /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D465C20E2E03900A3B7DA /* UIView+Extension.swift */; };
+		C63D467020E2E05F00A3B7DA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D466F20E2E05F00A3B7DA /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C617384420D82DCD00DB73C9 /* EMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C617384720D82DCD00DB73C9 /* EMKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMKit.h; sourceTree = "<group>"; };
 		C617384820D82DCD00DB73C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6EFA87620D83E3F00467D34 /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extensions; sourceTree = "<group>"; };
-		C6EFA87820D83E4B00467D34 /* TableManager */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TableManager; sourceTree = "<group>"; };
-		C6EFA88E20D83F6600467D34 /* Helper Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Helper Classes"; sourceTree = "<group>"; };
+		C63D464120E2DFFE00A3B7DA /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = EMKit/Alert.swift; sourceTree = SOURCE_ROOT; };
+		C63D464220E2DFFE00A3B7DA /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Delay.swift; path = EMKit/Delay.swift; sourceTree = SOURCE_ROOT; };
+		C63D464720E2E02B00A3B7DA /* TableSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableSection.swift; path = EMKit/TableSection.swift; sourceTree = SOURCE_ROOT; };
+		C63D464820E2E02B00A3B7DA /* TableManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableManager.swift; path = EMKit/TableManager.swift; sourceTree = SOURCE_ROOT; };
+		C63D464B20E2E03800A3B7DA /* UnicodeScalar+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UnicodeScalar+Extension.swift"; path = "EMKit/UnicodeScalar+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		C63D464C20E2E03800A3B7DA /* Double+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Double+Extension.swift"; path = "EMKit/Double+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		C63D464D20E2E03800A3B7DA /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITextField+Extension.swift"; path = "EMKit/UITextField+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		C63D464E20E2E03800A3B7DA /* Int16+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int16+Extension.swift"; path = "EMKit/Int16+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		C63D464F20E2E03800A3B7DA /* NSManagedObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSManagedObject+Extension.swift"; path = "EMKit/NSManagedObject+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		C63D465020E2E03800A3B7DA /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "EMKit/UIColor+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		C63D465120E2E03800A3B7DA /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "EMKit/String+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		C63D465220E2E03800A3B7DA /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extension.swift"; path = "EMKit/UIViewController+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		C63D465320E2E03900A3B7DA /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date+Extension.swift"; path = "EMKit/Date+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		C63D465420E2E03900A3B7DA /* UIProgressBar+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIProgressBar+Extension.swift"; path = "EMKit/UIProgressBar+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		C63D465520E2E03900A3B7DA /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITableView+Extension.swift"; path = "EMKit/UITableView+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		C63D465620E2E03900A3B7DA /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Extension.swift"; path = "EMKit/UIImage+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		C63D465720E2E03900A3B7DA /* TimeInterval+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TimeInterval+Extension.swift"; path = "EMKit/TimeInterval+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		C63D465820E2E03900A3B7DA /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIApplication+Extension.swift"; path = "EMKit/UIApplication+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		C63D465920E2E03900A3B7DA /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIButton+Extension.swift"; path = "EMKit/UIButton+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		C63D465A20E2E03900A3B7DA /* UIScrollView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIScrollView+Extension.swift"; path = "EMKit/UIScrollView+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		C63D465B20E2E03900A3B7DA /* URLRequest+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "URLRequest+Extension.swift"; path = "EMKit/URLRequest+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		C63D465C20E2E03900A3B7DA /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "EMKit/UIView+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		C63D466F20E2E05F00A3B7DA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = EMKit/Constants.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +94,55 @@
 			children = (
 				C617384720D82DCD00DB73C9 /* EMKit.h */,
 				C617384820D82DCD00DB73C9 /* Info.plist */,
-				C6EFA88E20D83F6600467D34 /* Helper Classes */,
-				C6EFA87620D83E3F00467D34 /* Extensions */,
-				C6EFA87820D83E4B00467D34 /* TableManager */,
+				C63D463E20E2DFBE00A3B7DA /* Helper Classes */,
+				C63D464020E2DFCD00A3B7DA /* Table Manager */,
+				C63D463F20E2DFC500A3B7DA /* Extensions */,
 			);
 			path = EMKit;
+			sourceTree = "<group>";
+		};
+		C63D463E20E2DFBE00A3B7DA /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C63D464120E2DFFE00A3B7DA /* Alert.swift */,
+				C63D464220E2DFFE00A3B7DA /* Delay.swift */,
+				C63D466F20E2E05F00A3B7DA /* Constants.swift */,
+			);
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		C63D463F20E2DFC500A3B7DA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C63D465320E2E03900A3B7DA /* Date+Extension.swift */,
+				C63D464C20E2E03800A3B7DA /* Double+Extension.swift */,
+				C63D464E20E2E03800A3B7DA /* Int16+Extension.swift */,
+				C63D464F20E2E03800A3B7DA /* NSManagedObject+Extension.swift */,
+				C63D465120E2E03800A3B7DA /* String+Extension.swift */,
+				C63D465720E2E03900A3B7DA /* TimeInterval+Extension.swift */,
+				C63D465820E2E03900A3B7DA /* UIApplication+Extension.swift */,
+				C63D465920E2E03900A3B7DA /* UIButton+Extension.swift */,
+				C63D465020E2E03800A3B7DA /* UIColor+Extension.swift */,
+				C63D465620E2E03900A3B7DA /* UIImage+Extension.swift */,
+				C63D465420E2E03900A3B7DA /* UIProgressBar+Extension.swift */,
+				C63D465A20E2E03900A3B7DA /* UIScrollView+Extension.swift */,
+				C63D465520E2E03900A3B7DA /* UITableView+Extension.swift */,
+				C63D464D20E2E03800A3B7DA /* UITextField+Extension.swift */,
+				C63D465C20E2E03900A3B7DA /* UIView+Extension.swift */,
+				C63D465220E2E03800A3B7DA /* UIViewController+Extension.swift */,
+				C63D464B20E2E03800A3B7DA /* UnicodeScalar+Extension.swift */,
+				C63D465B20E2E03900A3B7DA /* URLRequest+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C63D464020E2DFCD00A3B7DA /* Table Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C63D464820E2E02B00A3B7DA /* TableManager.swift */,
+				C63D464720E2E02B00A3B7DA /* TableSection.swift */,
+			);
+			path = "Table Manager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +189,7 @@
 				TargetAttributes = {
 					C617384320D82DCD00DB73C9 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -130,9 +215,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6EFA87720D83E3F00467D34 /* Extensions in Resources */,
-				C6EFA88F20D83F6600467D34 /* Helper Classes in Resources */,
-				C6EFA87920D83E4B00467D34 /* TableManager in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +225,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C63D466020E2E03900A3B7DA /* Int16+Extension.swift in Sources */,
+				C63D466420E2E03900A3B7DA /* UIViewController+Extension.swift in Sources */,
+				C63D464A20E2E02B00A3B7DA /* TableManager.swift in Sources */,
+				C63D464320E2DFFE00A3B7DA /* Alert.swift in Sources */,
+				C63D466220E2E03900A3B7DA /* UIColor+Extension.swift in Sources */,
+				C63D466320E2E03900A3B7DA /* String+Extension.swift in Sources */,
+				C63D465E20E2E03900A3B7DA /* Double+Extension.swift in Sources */,
+				C63D466C20E2E03900A3B7DA /* UIScrollView+Extension.swift in Sources */,
+				C63D464420E2DFFE00A3B7DA /* Delay.swift in Sources */,
+				C63D466D20E2E03900A3B7DA /* URLRequest+Extension.swift in Sources */,
+				C63D466E20E2E03900A3B7DA /* UIView+Extension.swift in Sources */,
+				C63D465D20E2E03900A3B7DA /* UnicodeScalar+Extension.swift in Sources */,
+				C63D465F20E2E03900A3B7DA /* UITextField+Extension.swift in Sources */,
+				C63D466120E2E03900A3B7DA /* NSManagedObject+Extension.swift in Sources */,
+				C63D466520E2E03900A3B7DA /* Date+Extension.swift in Sources */,
+				C63D466820E2E03900A3B7DA /* UIImage+Extension.swift in Sources */,
+				C63D466B20E2E03900A3B7DA /* UIButton+Extension.swift in Sources */,
+				C63D466A20E2E03900A3B7DA /* UIApplication+Extension.swift in Sources */,
+				C63D466620E2E03900A3B7DA /* UIProgressBar+Extension.swift in Sources */,
+				C63D464920E2E02B00A3B7DA /* TableSection.swift in Sources */,
+				C63D466720E2E03900A3B7DA /* UITableView+Extension.swift in Sources */,
+				C63D466920E2E03900A3B7DA /* TimeInterval+Extension.swift in Sources */,
+				C63D467020E2E05F00A3B7DA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +377,7 @@
 		C617385920D82DCD00DB73C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -289,6 +395,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.erraticminds.EMKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,6 +404,7 @@
 		C617385A20D82DCD00DB73C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

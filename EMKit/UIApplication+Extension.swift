@@ -12,7 +12,7 @@ extension UIApplication {
     /// Ask which view controller is on top
     ///
     /// - Returns: Top View Controller on screen
-    func topViewController(base: UIViewController? = self.keyWindow?.rootViewController) -> UIViewController? {
+    func topViewController(base: UIViewController? = UIApplication.shared.keyWindow?.rootViewController) -> UIViewController? {
         
         if let nav = base as? UINavigationController {
             

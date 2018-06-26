@@ -13,7 +13,7 @@ extension UIView {
     // How it's used: myView.setShadow()
     
     func setShadow() {
-        layer.shadowColor = Colors.black.cgColor
+        layer.shadowColor = UIColor.black.cgColor
         layer.shadowOffset = CGSize(width: 5.0, height: 5.0)
         layer.shadowRadius = 5
         layer.shadowOpacity = 0.35
@@ -37,5 +37,24 @@ extension UIView {
         gradientLayer.endPoint = CGPoint(x: 0.0, y: 0.0)
         
         layer.insertSublayer(gradientLayer, at: 0)
+    }
+    
+    /**
+     Returns the UIViewController object that manages the receiver.
+     */
+    public func viewController() -> UIViewController? {
+        
+        var nextResponder: UIResponder? = self
+        
+        repeat {
+            nextResponder = nextResponder?.next
+            
+            if let viewController = nextResponder as? UIViewController {
+                return viewController
+            }
+            
+        } while nextResponder != nil
+        
+        return nil
     }
 }
